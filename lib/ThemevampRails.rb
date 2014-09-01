@@ -1,5 +1,6 @@
 require "ThemevampRails/version"
 
 module ThemevampRails
-  # Your code goes here...
+  class Engine < ::Rails::Engine
+  end
 end
